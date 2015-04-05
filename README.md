@@ -23,5 +23,5 @@ Calling for example <code>unfriend.py username -lr -d</code> will display in det
 - If a user deactivates his profile and then reactivates it, or because of unknown circumstances he doesn't appear in the friends list at one time, that person will move to the removed-list and stay there. This can be fixed easily though.
 - The timestamp of each add-event and remove-event is dependent on the time when the tool is executed. For better and more precise results, running the tool could be automated every day or every 12 hours for example.
 - The lists are shown ordered by the Facebook user ID. Sorting by name/date is not implemented.
-- The Facebook OAuth token is valid for 60 days, after it expires a new one must be obtained (this can be achieved with the tool).
+- The Facebook OAuth token is valid for 60 days, after it expires a new one must be obtained (this can be achieved with the tool by moving or deleting the current username.fbat file).
 - Speaking of OAuth token, keep in mind this is sensitive data and should be kept somewhere safe and private. Right now it is written in plain text inside the .fbat file.
